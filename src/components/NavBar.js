@@ -24,58 +24,62 @@ function NavBar(props) {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <button
-                className={
-                  route === "AboutMe"
-                    ? " draw meet nav-link active"
-                    : " draw meet nav-link"
-                }
-                type="submit"
-                name="AboutMe"
-              >
-                <Link name="AboutMe" to={{ pathname: `/` }}>
+              <Link name="AboutMe" to={{ pathname: `/` }}>
+                <button
+                  className={
+                    route === "AboutMe"
+                      ? " draw meet nav-link active"
+                      : " draw meet nav-link"
+                  }
+                  type="submit"
+                  name="AboutMe"
+                  onClick={changeRoute}
+                >
                   About Me
-                </Link>
-              </button>
-              <button
-                className={
-                  route === "Projects"
-                    ? " draw meet nav-link  active"
-                    : " draw meet nav-link"
-                }
-                type="submit"
-                name="Projects"
-              >
-                <Link name="Projects" to={{ pathname: `/Projects` }}>
+                </button>
+              </Link>
+              <Link name="Projects" to={{ pathname: `/Projects` }}>
+                <button
+                  className={
+                    route === "Projects"
+                      ? " draw meet nav-link  active"
+                      : " draw meet nav-link"
+                  }
+                  type="submit"
+                  name="Projects"
+                  onClick={changeRoute}
+                >
                   Projects
-                </Link>
-              </button>
-              <button
-                className={
-                  route === "Resume"
-                    ? " draw meet nav-link  active"
-                    : " draw meet nav-link"
-                }
-                type="submit"
-                name="Resume"
-              >
-                <Link name="Resume" to={{ pathname: `/Resume` }}>
+                </button>
+              </Link>
+              <Link name="Resume" to={{ pathname: `/Resume` }}>
+                <button
+                  className={
+                    route === "Resume"
+                      ? " draw meet nav-link  active"
+                      : " draw meet nav-link"
+                  }
+                  type="submit"
+                  name="Resume"
+                  onClick={changeRoute}
+                >
                   Resume
-                </Link>
-              </button>
-              <button
-                className={
-                  route === "Contact"
-                    ? " draw meet nav-link  active"
-                    : " draw meet nav-link"
-                }
-                type="submit"
-                name="Contact"
-              >
-                <Link name="Contact" to={{ pathname: `/Contact` }}>
+                </button>
+              </Link>
+              <Link name="Contact" to={{ pathname: `/Contact` }}>
+                <button
+                  className={
+                    route === "Contact"
+                      ? " draw meet nav-link  active"
+                      : " draw meet nav-link"
+                  }
+                  type="submit"
+                  name="Contact"
+                  onClick={changeRoute}
+                >
                   Contact
-                </Link>
-              </button>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

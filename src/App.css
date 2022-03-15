@@ -13,16 +13,14 @@
   height: 100%;
   border: none;
   margin: 5px 10px;
-  border-bottom-color: #fff;
-  border-bottom-style: solid;
-  border-bottom-width: 0px;
   z-index: 10;
   background-color: var(--navGrey);
 }
-.nav-link a {
+.navbar-nav a {
   text-decoration: none;
   color: var(--grey);
 }
+
 .nav-link a:hover {
   text-decoration: none;
   color: var(--grey);
@@ -30,10 +28,6 @@
 
 .navbar-toggler:focus {
   box-shadow: none !important;
-}
-
-.navbar-nav .active {
-  border: 1px solid var(--grey);
 }
 
 /* draw button */
