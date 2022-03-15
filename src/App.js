@@ -16,7 +16,14 @@ function App() {
         <NavBar setRoute={setRoute} route={route} />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Projects" element={<Projects />} />
+          <Route
+            path="/Projects"
+            element={
+              <div className="cardContainer">
+                <Projects />
+              </div>
+            }
+          />
           <Route path="/Resume" element={<Projects />} />
           <Route path="/Contact" element={<Projects />} />
         </Routes>

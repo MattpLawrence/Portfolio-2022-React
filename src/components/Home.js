@@ -31,6 +31,7 @@ function Home() {
             bonsai garden. There is nothing I love more than having a problem to
             solve, and help grow something from nothing.
           </p>
+
           <div id="resumeDiv">
             <button id="btnResume">View My Resume</button>
           </div>
