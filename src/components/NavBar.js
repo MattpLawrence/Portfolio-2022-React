@@ -27,15 +27,6 @@ function NavBar(props) {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
-              <a className="nav-link" href="#">
-                Features
-              </a>
-              <a className="nav-link" href="#">
-                Pricing
-              </a>
               <button
                 className={
                   route === "Projects" ? "nav-link active" : "nav-link"
@@ -47,6 +38,32 @@ function NavBar(props) {
                 {" "}
                 <Link name="Projects" to={{ pathname: `/Projects` }}>
                   Projects
+                </Link>
+              </button>
+              <button
+                className={
+                  route === "Projects" ? "nav-link active" : "nav-link"
+                }
+                type="submit"
+                name="Projects"
+                onClick={changeRoute}
+              >
+                {" "}
+                <Link name="Resume" to={{ pathname: `/Resume` }}>
+                  Resume
+                </Link>
+              </button>
+              <button
+                className={
+                  route === "Projects" ? "nav-link active" : "nav-link"
+                }
+                type="submit"
+                name="Projects"
+                onClick={changeRoute}
+              >
+                {" "}
+                <Link name="Contact" to={{ pathname: `/Contact` }}>
+                  Contact
                 </Link>
               </button>
             </div>
