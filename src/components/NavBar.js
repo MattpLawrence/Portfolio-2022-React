@@ -1,6 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function NavBar() {
+function NavBar(props) {
+  const setRoute = props.setRoute;
+  const route = props.route;
+  function changeRoute(e) {
+    setRoute(e.target.name);
+  }
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -30,14 +36,19 @@ function NavBar() {
               <a className="nav-link" href="#">
                 Pricing
               </a>
-              <a
-                className="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
+              <button
+                className={
+                  route === "Projects" ? "nav-link active" : "nav-link"
+                }
+                type="submit"
+                name="Projects"
+                onClick={changeRoute}
               >
-                Disabled
-              </a>
+                {" "}
+                <Link name="Projects" to={{ pathname: `/Projects` }}>
+                  Projects
+                </Link>
+              </button>
             </div>
           </div>
         </div>
