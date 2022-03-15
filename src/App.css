@@ -3,7 +3,11 @@
   --navGrey: #f8f9fa;
 }
 
+.App {
+  text-align: center;
+}
 /* ******************NavBar************************ */
+
 .navbar-collapse {
   justify-content: space-around;
 }
@@ -103,6 +107,20 @@ button::after {
   border-bottom-color: var(--grey);
   border-left-color: var(--grey);
   transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
+}
+
+/* **************************About Me*********************** */
+
+.imgMain {
+  border-radius: 1rem;
+}
+.fullPage {
+  display: flex;
+  justify-content: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
 }
 /* Above Small */
 @media all and (min-width: 576px) {
