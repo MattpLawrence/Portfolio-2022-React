@@ -35,7 +35,7 @@ function NavBar(props) {
                 onClick={changeRoute}
               >
                 {" "}
-                <Link name="AboutMe" to={{ pathname: `/AboutMe` }}>
+                <Link name="AboutMe" to={{ pathname: `/` }}>
                   About Me
                 </Link>
               </button>
