@@ -31,10 +31,8 @@ function NavBar(props) {
                     : " draw meet nav-link"
                 }
                 type="submit"
-                name="Projects"
-                onClick={changeRoute}
+                name="AboutMe"
               >
-                {" "}
                 <Link name="AboutMe" to={{ pathname: `/` }}>
                   About Me
                 </Link>
@@ -47,9 +45,7 @@ function NavBar(props) {
                 }
                 type="submit"
                 name="Projects"
-                onClick={changeRoute}
               >
-                {" "}
                 <Link name="Projects" to={{ pathname: `/Projects` }}>
                   Projects
                 </Link>
@@ -61,10 +57,8 @@ function NavBar(props) {
                     : " draw meet nav-link"
                 }
                 type="submit"
-                name="Projects"
-                onClick={changeRoute}
+                name="Resume"
               >
-                {" "}
                 <Link name="Resume" to={{ pathname: `/Resume` }}>
                   Resume
                 </Link>
@@ -76,10 +70,8 @@ function NavBar(props) {
                     : " draw meet nav-link"
                 }
                 type="submit"
-                name="Projects"
-                onClick={changeRoute}
+                name="Contact"
               >
-                {" "}
                 <Link name="Contact" to={{ pathname: `/Contact` }}>
                   Contact
                 </Link>
