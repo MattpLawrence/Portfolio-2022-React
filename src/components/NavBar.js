@@ -29,7 +29,9 @@ function NavBar(props) {
             <div className="navbar-nav">
               <button
                 className={
-                  route === "Projects" ? "nav-link active" : "nav-link"
+                  route === "Projects"
+                    ? " draw meet nav-link  active"
+                    : " draw meet nav-link"
                 }
                 type="submit"
                 name="Projects"
@@ -42,7 +44,9 @@ function NavBar(props) {
               </button>
               <button
                 className={
-                  route === "Projects" ? "nav-link active" : "nav-link"
+                  route === "Projects"
+                    ? " draw meet nav-link  active"
+                    : " draw meet nav-link"
                 }
                 type="submit"
                 name="Projects"
@@ -55,7 +59,9 @@ function NavBar(props) {
               </button>
               <button
                 className={
-                  route === "Projects" ? "nav-link active" : "nav-link"
+                  route === "Projects"
+                    ? " draw meet nav-link  active"
+                    : " draw meet nav-link"
                 }
                 type="submit"
                 name="Projects"
