@@ -11,9 +11,6 @@ function NavBar(props) {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -27,6 +24,21 @@ function NavBar(props) {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
+              <button
+                className={
+                  route === "AboutMe"
+                    ? " draw meet nav-link active"
+                    : " draw meet nav-link"
+                }
+                type="submit"
+                name="Projects"
+                onClick={changeRoute}
+              >
+                {" "}
+                <Link name="AboutMe" to={{ pathname: `/AboutMe` }}>
+                  About Me
+                </Link>
+              </button>
               <button
                 className={
                   route === "Projects"
@@ -44,7 +56,7 @@ function NavBar(props) {
               </button>
               <button
                 className={
-                  route === "Projects"
+                  route === "Resume"
                     ? " draw meet nav-link  active"
                     : " draw meet nav-link"
                 }
@@ -59,7 +71,7 @@ function NavBar(props) {
               </button>
               <button
                 className={
-                  route === "Projects"
+                  route === "Contact"
                     ? " draw meet nav-link  active"
                     : " draw meet nav-link"
                 }
