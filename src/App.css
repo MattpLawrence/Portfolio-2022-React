@@ -140,6 +140,12 @@ button::after {
   flex-wrap: wrap;
 }
 
+/* *********************Resume********************** */
+iframe {
+  width: 100%;
+  height: 90vh;
+}
+
 /* Above Small */
 @media all and (min-width: 576px) {
 }

@@ -4,7 +4,6 @@ import { Link, useLocation } from "react-router-dom";
 function NavBar() {
   let location = useLocation();
   let route = location.pathname;
-  console.log(route);
 
   return (
     <div>
@@ -32,7 +31,6 @@ function NavBar() {
                   }
                   type="submit"
                   name="AboutMe"
-                  // onClick={changeRoute}
                 >
                   About Me
                 </button>
@@ -46,7 +44,6 @@ function NavBar() {
                   }
                   type="submit"
                   name="Projects"
-                  // onClick={changeRoute}
                 >
                   Projects
                 </button>
@@ -60,7 +57,6 @@ function NavBar() {
                   }
                   type="submit"
                   name="Resume"
-                  // onClick={changeRoute}
                 >
                   Resume
                 </button>
