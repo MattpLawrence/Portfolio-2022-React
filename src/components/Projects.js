@@ -4,7 +4,7 @@ import projectList from "../assets/projectList";
 function Projects() {
   return projectList.map((proj, i) => (
     <div key={i}>
-      <div className="card" style={{ width: "30rem" }}>
+      <div className="card col-sm-12 col-md-10 col-xl-8">
         <img
           src={proj.imgSrc}
           className="card-img-top"

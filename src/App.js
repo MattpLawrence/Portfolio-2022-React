@@ -20,8 +20,10 @@ function App() {
           <Route
             path="/Projects"
             element={
-              <div className="cardContainer">
-                <Projects />
+              <div className="cardContainer container">
+                <div className="row">
+                  <Projects />
+                </div>
               </div>
             }
           />
