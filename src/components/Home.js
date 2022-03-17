@@ -1,12 +1,11 @@
 import React from "react";
-import me from "../assets/images/meAvatar.jpg";
 
 function Home() {
   return (
     <div className="fullPage">
       <section id="one">
         <div data-position="center">
-          <img src={me} className="imgMain" alt="Profile" />
+          <img src="images/meAvatar.jpg" className="imgMain" alt="Profile" />
         </div>
         <div className="container">
           <header className="major">

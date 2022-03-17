@@ -6,6 +6,7 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 
 function App() {
   const [route, setRoute] = useState("AboutMe");
@@ -24,7 +25,7 @@ function App() {
               </div>
             }
           />
-          <Route path="/Resume" element={<Projects />} />
+          <Route path="/Resume" element={<Resume />} />
           <Route path="/Contact" element={<Projects />} />
         </Routes>
       </div>

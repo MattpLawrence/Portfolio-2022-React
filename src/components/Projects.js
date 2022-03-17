@@ -1,6 +1,6 @@
 import React from "react";
 import projectList from "../assets/projectList";
-import me from "../assets/images/codeQuizSmall.png";
+
 function Projects() {
   return projectList.map((proj, i) => (
     <div key={i}>
