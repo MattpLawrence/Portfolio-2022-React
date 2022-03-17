@@ -12,6 +12,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 function App() {
   // const [route, setRoute] = useState("AboutMe");
@@ -33,7 +34,7 @@ function App() {
             }
           />
           <Route path="/Resume" element={<Resume />} />
-          <Route path="/Contact" element={<Projects />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
