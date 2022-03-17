@@ -78,7 +78,7 @@ button::after {
   right: 0;
 }
 .draw:hover {
-  color: #60daaa;
+  color: var(--grey);
 }
 .draw:hover::before,
 .draw:hover::after {
@@ -86,19 +86,17 @@ button::after {
   height: 100%;
 }
 .draw:hover::before {
-  border-top-color: #60daaa;
-  border-right-color: #60daaa;
+  border-top-color: var(--grey);
+  border-right-color: var(--grey);
   transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
 }
 .draw:hover::after {
-  border-bottom-color: #60daaa;
-  border-left-color: #60daaa;
+  border-bottom-color: var(--grey);
+  border-left-color: var(--grey);
   transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s,
     height 0.25s ease-out 0.75s;
 }
-.meet:hover {
-  color: var(--grey);
-}
+
 .meet::after {
   top: 0;
   left: 0;
@@ -141,6 +139,9 @@ button::after {
   flex-wrap: wrap;
 }
 
+.card-link {
+  text-decoration: none;
+}
 /* *********************Resume********************** */
 iframe {
   width: 100%;

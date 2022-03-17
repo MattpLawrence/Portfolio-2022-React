@@ -14,9 +14,9 @@ function Projects() {
         </div>
 
         <div className="card-body">
-          <a href={proj.gitHref} className="card-link">
+          <button href={proj.gitHref} className="card-link button draw">
             View My Project
-          </a>
+          </button>
         </div>
       </div>
     </div>

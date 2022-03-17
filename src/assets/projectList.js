@@ -9,7 +9,7 @@ const projectList = [
       "This application uses Node.js and Express.js to establish the backend server and routes to enable a fully functioning social media-style chat app. Using MySQL and JawsDB user information is stored and used for authentication. The application was built using an MVC organizational structure and a CRUD database design. This application was designed to be fully mobile-friendly.",
   },
   {
-    imgSrc: "images/gamerGabble.png",
+    imgSrc: "images/shortURL.png",
     imgAlt: "Gamer's Chat Application",
     appHref: "https://mattplawrence.github.io/short-url/",
     gitHref: "https://github.com/MattpLawrence/short-url",
