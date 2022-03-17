@@ -1,5 +1,10 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import "./";
 import "./App.css";
 
@@ -9,18 +14,18 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 
 function App() {
-  const [route, setRoute] = useState("AboutMe");
-  console.log(route);
+  // const [route, setRoute] = useState("AboutMe");
+
   return (
     <Router>
       <div className="App">
-        <NavBar setRoute={setRoute} route={route} />
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
             path="/Projects"
             element={
-              <div className="cardContainer container">
+              <div className=" cardContainer container">
                 <div className="row">
                   <Projects />
                 </div>

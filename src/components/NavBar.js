@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
-function NavBar(props) {
-  const setRoute = props.setRoute;
-  const route = props.route;
-  function changeRoute(e) {
-    setRoute(e.target.name);
-  }
+function NavBar() {
+  let location = useLocation();
+  let route = location.pathname;
+  console.log(route);
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -27,13 +26,13 @@ function NavBar(props) {
               <Link name="AboutMe" to={{ pathname: `/` }}>
                 <button
                   className={
-                    route === "AboutMe"
+                    route === "/"
                       ? " draw meet nav-link active"
                       : " draw meet nav-link"
                   }
                   type="submit"
                   name="AboutMe"
-                  onClick={changeRoute}
+                  // onClick={changeRoute}
                 >
                   About Me
                 </button>
@@ -41,13 +40,13 @@ function NavBar(props) {
               <Link name="Projects" to={{ pathname: `/Projects` }}>
                 <button
                   className={
-                    route === "Projects"
+                    route === "/Projects"
                       ? " draw meet nav-link  active"
                       : " draw meet nav-link"
                   }
                   type="submit"
                   name="Projects"
-                  onClick={changeRoute}
+                  // onClick={changeRoute}
                 >
                   Projects
                 </button>
@@ -55,13 +54,13 @@ function NavBar(props) {
               <Link name="Resume" to={{ pathname: `/Resume` }}>
                 <button
                   className={
-                    route === "Resume"
+                    route === "/Resume"
                       ? " draw meet nav-link  active"
                       : " draw meet nav-link"
                   }
                   type="submit"
                   name="Resume"
-                  onClick={changeRoute}
+                  // onClick={changeRoute}
                 >
                   Resume
                 </button>
@@ -69,13 +68,12 @@ function NavBar(props) {
               <Link name="Contact" to={{ pathname: `/Contact` }}>
                 <button
                   className={
-                    route === "Contact"
+                    route === "/Contact"
                       ? " draw meet nav-link  active"
                       : " draw meet nav-link"
                   }
                   type="submit"
                   name="Contact"
-                  onClick={changeRoute}
                 >
                   Contact
                 </button>

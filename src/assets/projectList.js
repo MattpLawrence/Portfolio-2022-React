@@ -9,7 +9,16 @@ const projectList = [
       "This application uses Node.js and Express.js to establish the backend server and routes to enable a fully functioning social media-style chat app. Using MySQL and JawsDB user information is stored and used for authentication. The application was built using an MVC organizational structure and a CRUD database design. This application was designed to be fully mobile-friendly.",
   },
   {
-    imgSrc: "images/weatherDashboardLarge.png",
+    imgSrc: "images/gamerGabble.png",
+    imgAlt: "Gamer's Chat Application",
+    appHref: "https://mattplawrence.github.io/short-url/",
+    gitHref: "https://github.com/MattpLawrence/short-url",
+    name: "URL Shortener",
+    description:
+      "This application uses React.js and React hooks to create a simple application to shorten URLs. Styled with Bootstrap-CSS and designed mobile-first, this application works in any screen format.",
+  },
+  {
+    imgSrc: "images/weatherDashboardLarge.jpg",
     imgAlt: "Weather Forecast Application",
     appHref: "https://mattplawrence.github.io/Weather-Dashboard/",
     gitHref: "https://github.com/MattpLawrence/Weather-Dashboard",
