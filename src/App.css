@@ -19,6 +19,7 @@
   margin: 5px 10px;
   z-index: 10;
   background-color: var(--navGrey);
+  padding: 2px 20px !important;
 }
 .navbar-nav a {
   text-decoration: none;
