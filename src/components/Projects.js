@@ -2,6 +2,7 @@ import React from "react";
 import projectList from "../assets/projectList";
 
 function Projects() {
+  // map out all projects
   return projectList.map((proj, i) => (
     <div key={i}>
       <div className="card col-sm-12 col-md-10 col-xl-8">
@@ -9,7 +10,11 @@ function Projects() {
           <a href={proj.appHref} target="_blank">
             <img src={proj.imgSrc} className="card-img-top" alt={proj.imgAlt} />
             <div className="viewLabel">View this project live now!</div>
-            <div className="techLabel">Made With:</div>
+            {/* return alternating classes */}
+            <div className={i % 2 == 0 ? "techLabelLeft" : "techLabelRight"}>
+              Made With:
+            </div>
+            {/* map out all technologies */}
             <div className="techContainer">
               {proj.tech.map((t, i) => {
                 return (
