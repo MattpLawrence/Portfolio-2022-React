@@ -1,6 +1,17 @@
 const projectList = [
   {
-    imgSrc: "images/gamerGabble.png",
+    imgSrc: "images/reactPortfolio.png",
+    imgAlt: "React Portfolio",
+    appHref: "https://github.com/MattpLawrence/Portfolio-2022-React",
+    gitHref: "https://github.com/MattpLawrence/Portfolio-2022-React",
+    name: "React Portfolio (This Page)",
+    tech: ["React.js", "JavaScript", "HTML", "CSS", "Bootstrap"],
+    viewType: "View This Project On GitHub!",
+    description:
+      "This website uses React.js to dynamically manipulate the virtual DOM to give a smooth user experience. Using react router, you can navigate through the different pages. I used Bootstrap and basic breakpoints to make this a mobile first webpage. ",
+  },
+  {
+    imgSrc: "images/gamerGabble-min.png",
     imgAlt: "Gamer's Chat Application",
     appHref: "https://gamer-gabble.herokuapp.com/",
     gitHref: "https://github.com/MattpLawrence/Game-Chat",
@@ -12,7 +23,7 @@ const projectList = [
   },
   {
     imgSrc: "images/shortURL.png",
-    imgAlt: "Gamer's Chat Application",
+    imgAlt: "URL shortener",
     appHref: "https://mattplawrence.github.io/short-url/",
     gitHref: "https://github.com/MattpLawrence/short-url",
     name: "URL Shortener",
