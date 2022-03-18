@@ -116,12 +116,12 @@ button::after {
   left: 0;
 }
 .meet:hover::before {
-  border-top-color: var(--blue);
-  border-right-color: var(--blue);
+  border-top-color: var(--grey);
+  border-right-color: var(--grey);
 }
 .meet:hover::after {
-  border-bottom-color: var(--blue);
-  border-left-color: var(--blue);
+  border-bottom-color: var(--grey);
+  border-left-color: var(--grey);
   transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
 }
 
