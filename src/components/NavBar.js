@@ -10,6 +10,7 @@ function NavBar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <button
+            id="btnToggle"
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -29,11 +30,13 @@ function NavBar() {
                 <button
                   className={
                     route === "/"
-                      ? " draw meet nav-link active"
-                      : " draw meet nav-link"
+                      ? "draw meet nav-link active"
+                      : "draw meet nav-link"
                   }
                   type="submit"
                   name="AboutMe"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup"
                 >
                   About Me
                 </button>
@@ -47,6 +50,8 @@ function NavBar() {
                   }
                   type="submit"
                   name="Projects"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup"
                 >
                   Projects
                 </button>
@@ -60,6 +65,8 @@ function NavBar() {
                   }
                   type="submit"
                   name="Resume"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup"
                 >
                   Resume
                 </button>
@@ -73,6 +80,8 @@ function NavBar() {
                   }
                   type="submit"
                   name="Contact"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup"
                 >
                   Contact
                 </button>
