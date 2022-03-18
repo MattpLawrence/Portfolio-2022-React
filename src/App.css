@@ -173,7 +173,7 @@ button::after {
 
 .imgContainer:hover .techContainer {
   opacity: 1;
-  top: 70%;
+  top: 75%;
 }
 
 .viewLabel {
@@ -241,8 +241,9 @@ button::after {
 }
 .techBadge {
   display: inline-flex;
+  font-size: 0.8rem;
   padding: 0.5rem;
-  margin: 0.5rem;
+  margin: 0.1rem 0.2rem;
   border-radius: 16px;
   background-color: var(--grey);
   z-index: +1;
@@ -260,6 +261,12 @@ iframe {
 }
 /* Above Medium */
 @media all and (min-width: 768px) {
+  .techBadge {
+    font-size: 1rem;
+
+    margin: 0.5rem;
+  }
+
   .imgContainer:hover .techLabelLeft {
     top: 50%;
   }

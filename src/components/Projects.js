@@ -9,7 +9,7 @@ function Projects() {
         <div className="imgContainer">
           <a href={proj.appHref} target="_blank">
             <img src={proj.imgSrc} className="card-img-top" alt={proj.imgAlt} />
-            <div className="viewLabel">View this project live now!</div>
+            <div className="viewLabel">{proj.viewType}</div>
             {/* return alternating classes */}
             <div className={i % 2 == 0 ? "techLabelLeft" : "techLabelRight"}>
               Made With:
