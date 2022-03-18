@@ -2,16 +2,14 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faCopy } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import meContact from "../assets/images/meWaterMin.jpg";
 
 function Contact() {
   return (
     <div className=" cardContainer container">
       <div className="row">
         <div className="card contactCard col-sm-12 col-md-10 col-xl-8">
-          <img
-            className="imgMain imgContact col-10 "
-            src="images/meWaterMin.jpg"
-          ></img>
+          <img className="imgMain imgContact col-10 " src={meContact}></img>
           <h2>Want more of me?</h2>
           <div className="contactContainer">
             <a
