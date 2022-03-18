@@ -269,6 +269,31 @@ iframe {
   height: 90vh;
 }
 
+/* *********************Contact************************ */
+
+.imgContact {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+.card h2 {
+  color: var(--grey);
+}
+
+.contactContainer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.contactContainer a button {
+  color: var(--grey);
+}
+.faIcon {
+  font-size: 1.5rem;
+  margin-left: 0rem;
+}
+
 /* Above Small */
 @media all and (min-width: 576px) {
 }
