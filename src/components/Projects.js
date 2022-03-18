@@ -5,7 +5,7 @@ function Projects() {
   // map out all projects
   return projectList.map((proj, i) => (
     <div key={i}>
-      <div className="card col-sm-12 col-md-10 col-xl-8">
+      <div className="card col-sm-12 col-md-10 col-xl-8 projCard">
         <div className="imgContainer">
           <a href={proj.appHref} target="_blank">
             <img src={proj.imgSrc} className="card-img-top" alt={proj.imgAlt} />

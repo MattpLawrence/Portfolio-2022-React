@@ -170,23 +170,23 @@ button::after {
 .imgContainer a {
   overflow: hidden;
 }
-.imgContainer:hover .card-img-top {
+.projCard:hover .card-img-top {
   opacity: 0.3;
 }
-.imgContainer:hover .viewLabel {
+.projCard:hover .viewLabel {
   opacity: 1;
   top: 20%;
 }
-.imgContainer:hover .techLabelLeft {
+.projCard:hover .techLabelLeft {
   opacity: 1;
   left: 50%;
 }
-.imgContainer:hover .techLabelRight {
+.projCard:hover .techLabelRight {
   opacity: 1;
   left: 50%;
 }
 
-.imgContainer:hover .techContainer {
+.projCard:hover .techContainer {
   opacity: 1;
   top: 75%;
 }
@@ -364,6 +364,10 @@ iframe {
 @media all and (min-width: 992px) {
   .titleCenter {
     display: none;
+  }
+
+  .imgContainer:hover {
+    z-index: +1;
   }
   .imgContainer:hover .techContainer {
     top: 80%;
