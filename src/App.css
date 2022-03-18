@@ -12,6 +12,15 @@
   justify-content: space-around;
 }
 
+.container-fluid button {
+  z-index: +1;
+}
+.titleCenter {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 .nav-link {
   display: flex;
   height: 100%;
@@ -276,6 +285,9 @@ iframe {
 }
 /* Above Large */
 @media all and (min-width: 992px) {
+  .titleCenter {
+    display: none;
+  }
   .imgContainer:hover .techContainer {
     top: 80%;
   }
