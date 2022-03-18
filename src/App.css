@@ -162,21 +162,18 @@ button::after {
   opacity: 1;
   top: 20%;
 }
-.imgContainer:hover .techLeft {
+.imgContainer:hover .techLabel {
   opacity: 1;
-  left: 45%;
+  left: 50%;
 }
-.imgContainer:hover .techRight {
-  opacity: 1;
-  left: 55%;
-}
+
 .imgContainer:hover .techContainer {
   opacity: 1;
   top: 70%;
 }
 
 .viewLabel {
-  /* background-color: var(--grey); */
+  width: 100%;
   font-size: 1.3rem;
   font-weight: 800;
   color: black;
@@ -193,7 +190,7 @@ button::after {
   text-align: center;
 }
 
-.techLeft {
+.techLabel {
   font-size: 1.3rem;
   font-weight: 800;
   color: black;
@@ -202,24 +199,8 @@ button::after {
   transition: 0.6s ease;
   opacity: 0;
   position: absolute;
-  top: 60%;
+  top: 40%;
   left: 0%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.techRight {
-  font-size: 1.3rem;
-  font-weight: 800;
-  color: black;
-  padding: 0.5rem;
-  border-radius: 16px;
-  transition: 0.6s ease;
-  opacity: 0;
-  position: absolute;
-  top: 60%;
-  left: 100%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
@@ -259,11 +240,19 @@ iframe {
 }
 /* Above Medium */
 @media all and (min-width: 768px) {
+  .imgContainer:hover .techLabel {
+    opacity: 1;
+    top: 50%;
+  }
 }
 /* Above Large */
 @media all and (min-width: 992px) {
   .imgContainer:hover .techContainer {
     top: 80%;
+  }
+  .imgContainer:hover .techLabel {
+    opacity: 1;
+    top: 60%;
   }
 }
 /* Above X-Large */
