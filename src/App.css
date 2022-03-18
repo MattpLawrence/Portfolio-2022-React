@@ -16,6 +16,7 @@
   z-index: +1;
 }
 .titleCenter {
+  margin-top: 0.5rem;
   position: absolute;
   top: 0;
   width: 100%;
