@@ -33,7 +33,7 @@ const projectList = [
       "This application uses React.js and React hooks to create a simple application to shorten URLs. Styled with Bootstrap-CSS and designed mobile-first, this application works in any screen format.",
   },
   {
-    imgSrc: "images/weatherDashboardLarge.jpg",
+    imgSrc: "images/weatherDashboardLarge.JPG",
     imgAlt: "Weather Forecast Application",
     appHref: "https://mattplawrence.github.io/Weather-Dashboard/",
     gitHref: "https://github.com/MattpLawrence/Weather-Dashboard",
