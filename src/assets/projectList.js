@@ -38,7 +38,7 @@ const projectList = [
     appHref: "https://github.com/MattpLawrence/YouTube_Music_Finder",
     gitHref: "https://github.com/MattpLawrence/YouTube_Music_Finder",
     name: "YouTube Music Player",
-    tech: ["JavaScript", "HTML", "Node.js", "CSS", "Express.js", "Bootstrap"],
+    tech: ["JavaScript", "HTML", "CSS", "Bootstrap"],
     viewType: "View This Project On GitHub!",
     description:
       "A music player that generates random songs, saves your view and search history. Worked with a group using AGILE methodology and SCRUM to accomplish the project. Github branches and Kanban boards were used to keep track of objectives.",
@@ -49,7 +49,7 @@ const projectList = [
     appHref: "https://github.com/MattpLawrence/Code-Quiz",
     gitHref: "https://github.com/MattpLawrence/Code-Quiz",
     name: "Javascript Code Quiz",
-    tech: ["JavaScript", "HTML", "Node.js", "CSS", "Express.js", "Bootstrap"],
+    tech: ["JavaScript", "HTML", "CSS"],
     viewType: "View This Project On GitHub!",
     description:
       "This application uses vanilla JavaScript and jQuery to manipulate the DOM and produce a responsive online quiz. Using local storage the quiz stores your score, and compares it with previous high scores. Styled with CSS and initialized in HTML, this demonstrates a complete, functioning timed quiz.",

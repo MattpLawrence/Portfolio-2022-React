@@ -11,7 +11,7 @@ function Home() {
           <header className="major">
             <h2>About Me</h2>
             <p>
-              I am a Jr. Full Stack developer learning MERN stack.
+              I am a Jr. MERN full stack developer.
               <br />
               Here are a few things you should know about me.
             </p>
