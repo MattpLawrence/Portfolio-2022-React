@@ -8,16 +8,19 @@ function Projects() {
         <div className="imgContainer">
           <a href={proj.appHref} target="_blank">
             <img src={proj.imgSrc} className="card-img-top" alt={proj.imgAlt} />
+            <div className="viewLabel">View this project live now!</div>
+            <div className="techLeft">Made</div>
+            <div className="techRight">With:</div>
+            <div className="techContainer">
+              {proj.tech.map((t, i) => {
+                return (
+                  <div key={i} className="techBadge">
+                    {t}
+                  </div>
+                );
+              })}
+            </div>
           </a>
-          <div className="techContainer">
-            {proj.tech.map((t, i) => {
-              return (
-                <div key={i} className="techBadge">
-                  {t}
-                </div>
-              );
-            })}
-          </div>
         </div>
         <div className="card-body">
           <h5 className="card-title">{proj.name}</h5>
@@ -26,7 +29,7 @@ function Projects() {
 
         <div className="card-body">
           <a href={proj.gitHref} target="_blank">
-            <button className="card-link button draw">View My Project</button>
+            <button className="card-link button draw">View On GitHub</button>
           </a>
         </div>
       </div>
