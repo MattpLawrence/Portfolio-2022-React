@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div className=" cardContainer container">
       <div className="row">
-        <div className="card col-sm-12 col-md-10 col-xl-8">
+        <div className="card contactCard col-sm-12 col-md-10 col-xl-8">
           <img
             className="imgMain imgContact col-10 "
             src="images/meWaterMin.jpg"
@@ -18,17 +18,17 @@ function Contact() {
               href="https://mail.google.com/mail/u/0/?fs=1&to=MattphLawrence@gmail.com&tf=cm"
               target="_blank"
             >
-              <button className="card-link button draw">
+              <button className="card-link button spin circle">
                 <FontAwesomeIcon icon={faEnvelope} className="faIcon" />
               </button>
             </a>
             <a href="https://github.com/MattpLawrence" target="_blank">
-              <button className="card-link button draw">
+              <button className="card-link button spin circle">
                 <FontAwesomeIcon icon={faGithub} className="faIcon" />
               </button>
             </a>
             <a href="https://www.linkedin.com/in/mattplawrence" target="_blank">
-              <button className="card-link button draw">
+              <button className="card-link button spin circle">
                 <FontAwesomeIcon icon={faLinkedin} className="faIcon" />
               </button>
             </a>
