@@ -26,6 +26,10 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  color: var(--purple);
+}
+.titleCenter .center {
+  font-weight: 700;
 }
 
 .nav-link {
@@ -143,6 +147,7 @@ button::after {
 .fullPage {
   display: flex;
   justify-content: center;
+  width: 100vw;
 }
 .center {
   display: flex;
@@ -152,6 +157,20 @@ button::after {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   margin-top: 2rem;
+}
+.svg {
+  z-index: -1;
+  margin: -25%;
+  width: 80%;
+  filter: invert(14%) sepia(76%) saturate(6478%) hue-rotate(268deg)
+    brightness(92%) contrast(111%);
+}
+.purple {
+  position: relative;
+  z-index: +1;
+  padding: 2rem;
+  color: white;
+  background-color: var(--purple);
 }
 
 /* *********************Projects********************** */
