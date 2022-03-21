@@ -177,6 +177,10 @@ button::after {
   background-color: var(--purple);
 }
 
+.purple p {
+  font-size: 1.2rem;
+}
+
 /* *********************Projects********************** */
 .projCardContainer .row {
   margin-top: -6rem;
@@ -184,7 +188,7 @@ button::after {
 
 .cardContainer .card {
   border-radius: 1rem;
-  margin: 2rem;
+  margin: 1rem;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   background-color: rgb(240, 240, 240);
   margin-left: auto;
@@ -317,12 +321,12 @@ iframe {
 .home {
   position: relative;
   padding: 2rem;
-  height: 250px;
+  height: 210px;
   color: white;
   background-color: var(--purple);
 }
 .homeContact .row {
-  margin-top: -8rem;
+  margin-top: -10rem;
 }
 .purple h2 {
   font-weight: 700;
@@ -442,6 +446,19 @@ iframe {
   }
   .imgContainer:hover .techLabelRight {
     top: 45%;
+  }
+  .cardContainer .card {
+    margin-bottom: 2rem;
+  }
+  .home {
+    position: relative;
+    padding: 2rem;
+    height: 250px;
+    color: white;
+    background-color: var(--purple);
+  }
+  .homeContact .row {
+    margin-top: -8rem;
   }
   /************ contact form **************/
   .cardContainer .row .contactCard {

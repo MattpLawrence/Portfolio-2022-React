@@ -4,7 +4,7 @@ import projectList from "../assets/projectList";
 function Projects() {
   // map out all projects
   return projectList.map((proj, i) => (
-    <div key={i} className="card col-11  col-md-10 col-xl-5">
+    <div key={i} className="card col-11   col-lg-5">
       <div className="imgContainer">
         <a href={proj.appHref} target="_blank">
           <img src={proj.imgSrc} className="card-img-top" alt={proj.imgAlt} />

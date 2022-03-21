@@ -36,10 +36,9 @@ function About() {
             to keep learning and creating. When I am not behind the computer I
             enjoy being outdoors. When the weather is nice (not an Atlanta
             summer) you can find me spending my free time hiking and mountain
-            biking. I am also passionate about taking care of plants. For the
-            last 7+ years I have been growing and taking care of my own little
-            bonsai garden. There is nothing I love more than having a problem to
-            solve, and help grow something from nothing.
+            biking. I am also passionate about taking care of plants. There is
+            nothing I love more than having a problem to solve, and help grow
+            something from nothing.
           </p>
         </div>
       </section>

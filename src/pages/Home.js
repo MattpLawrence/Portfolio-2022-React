@@ -13,8 +13,10 @@ function Home() {
           <Projects />
         </div>
       </div>
+      <img className="svg" src="images/circuit.svg"></img>
       <div className="home purple">
         <h2> I'd Love to hear from you!</h2>
+        <p>Contact me below:</p>
       </div>
       <div className="homeContact">
         <Contact />
