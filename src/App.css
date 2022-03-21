@@ -32,13 +32,16 @@ body {
   font-weight: 700;
 }
 
+.app .navbar {
+  background-color: white;
+}
 .nav-link {
   display: flex;
   height: 100%;
   border: none;
   margin: 5px 10px;
   z-index: 10;
-  background-color: var(--navGrey);
+  background-color: white;
   padding: 2px 20px !important;
   color: var(--purple) !important;
 }
@@ -71,7 +74,7 @@ button {
   box-sizing: border-box;
   margin: 1em;
   padding: 1em 2em;
-  box-shadow: inset 0 0 0 2px var(--navGrey);
+  box-shadow: inset 0 0 0 2px white;
   font-size: inherit;
   font-weight: 700;
   position: relative;
@@ -396,6 +399,9 @@ iframe {
 }
 /* Above Large */
 @media all and (min-width: 992px) {
+  .intro h2 {
+    margin-top: 4rem;
+  }
   .svg {
     margin-bottom: -12%;
     width: 40%;
