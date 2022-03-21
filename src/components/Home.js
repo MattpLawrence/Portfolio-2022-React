@@ -18,10 +18,7 @@ function Home() {
           </header>
           <p>
             I was born and raised in Atlanta Georgia, and currently live in
-            Marietta. During my time working as a Mechanical Engineer co-op I
-            was assigned a database project where I was first introduced to
-            coding. Over a couple years I taught myself VBA and totally fell in
-            love. Now I am branching out into software development and am eager
+            Marietta. I am branching out into software development and am eager
             to keep learning and creating. When I am not behind the computer I
             enjoy being outdoors. When the weather is nice (not an Atlanta
             summer) you can find me spending my free time hiking and mountain
