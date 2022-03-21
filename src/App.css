@@ -381,7 +381,7 @@ iframe {
 /* Above Medium */
 @media all and (min-width: 768px) {
   .svg {
-    margin-bottom: -18%;
+    margin-bottom: -19%;
     width: 60%;
   }
   .techBadge {
@@ -403,7 +403,7 @@ iframe {
     margin-top: 4rem;
   }
   .svg {
-    margin-bottom: -12%;
+    margin-bottom: -13%;
     width: 40%;
   }
   .titleCenter {
@@ -433,7 +433,10 @@ iframe {
 /* Above X-Large */
 @media all and (min-width: 1200px) {
   .svg {
-    margin-bottom: -170px;
+    margin-bottom: -190px;
     width: 600px;
+  }
+  .imgAbout {
+    margin: 0;
   }
 }
