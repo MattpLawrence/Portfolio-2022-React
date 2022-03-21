@@ -13,11 +13,12 @@ function Home() {
           <Projects />
         </div>
       </div>
-      <img className="svg" src="images/circuit.svg"></img>
+      {/* <img className="svg" src="images/circuit.svg"></img> */}
       <div className="home purple">
         <h2> I'd Love to hear from you!</h2>
         <p>Contact me below:</p>
       </div>
+      <img className="svg matrix" src="images/matrix.svg"></img>
       <div className="homeContact">
         <Contact />
       </div>

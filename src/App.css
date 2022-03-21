@@ -402,6 +402,14 @@ iframe {
   border-radius: 100%;
 }
 
+.matrix {
+  /* z-index: -1; */
+  position: absolute;
+  left: 0;
+  width: 100vw !important;
+  max-height: 1200px;
+}
+
 /* *****************Media Query********************* */
 
 /* Above Small */
@@ -472,6 +480,7 @@ iframe {
     margin-bottom: 1rem;
   }
 }
+
 /* Above X-Large */
 @media all and (min-width: 1200px) {
   .svg {
