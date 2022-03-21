@@ -33,15 +33,18 @@
   z-index: 10;
   background-color: var(--navGrey);
   padding: 2px 20px !important;
+  color: var(--purple) !important;
 }
 .navbar-nav a {
   text-decoration: none;
   color: var(--purple);
 }
+/* .nav-link:hover {
+  color: var(--purple) !important;
+} */
 
 .nav-link a:hover {
   text-decoration: none;
-  color: var(--purple);
 }
 
 .navbar-toggler:focus {
@@ -141,6 +144,11 @@ button::after {
 .center {
   display: flex;
   justify-content: center;
+}
+.intro h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5;
+  font-weight: 700;
 }
 
 /* *********************Projects********************** */

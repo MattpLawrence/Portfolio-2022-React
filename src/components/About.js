@@ -1,9 +1,15 @@
 import React from "react";
 
-function Home() {
+function About() {
   return (
     <div className="fullPage">
       <section id="one">
+        <header className="intro">
+          <h2>Developer, Problem Solver & Perpetual Learner </h2>
+          <p>
+            I design solutions to development problems, and I love doing so.
+          </p>
+        </header>
         <div data-position="center">
           <img src="images/meAvatar.jpg" className="imgMain" alt="Profile" />
         </div>
@@ -33,4 +39,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;
