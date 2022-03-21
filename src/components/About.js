@@ -13,8 +13,13 @@ function About() {
           </p>
         </header>
         <div data-position="center">
-          <img src="images/meAvatar.jpg" className="imgMain" alt="Profile" />
+          <img
+            src="images/meAvatar.jpg"
+            className="imgMain imgAbout"
+            alt="Profile"
+          />
         </div>
+
         <img className="svg" src="images/circuit.svg"></img>
         <div className=" purple">
           <header className="major">

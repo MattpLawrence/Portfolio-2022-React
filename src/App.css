@@ -159,8 +159,7 @@ button::after {
   margin-top: 2rem;
 }
 .svg {
-  z-index: -1;
-  margin: -25%;
+  margin-bottom: -25%;
   width: 80%;
   filter: invert(14%) sepia(76%) saturate(6478%) hue-rotate(268deg)
     brightness(92%) contrast(111%);
@@ -378,6 +377,10 @@ iframe {
 }
 /* Above Medium */
 @media all and (min-width: 768px) {
+  .svg {
+    margin-bottom: -18%;
+    width: 60%;
+  }
   .techBadge {
     font-size: 1rem;
 
@@ -393,6 +396,10 @@ iframe {
 }
 /* Above Large */
 @media all and (min-width: 992px) {
+  .svg {
+    margin-bottom: -12%;
+    width: 40%;
+  }
   .titleCenter {
     display: none;
   }
@@ -419,4 +426,8 @@ iframe {
 }
 /* Above X-Large */
 @media all and (min-width: 1200px) {
+  .svg {
+    margin-bottom: -170px;
+    width: 600px;
+  }
 }
