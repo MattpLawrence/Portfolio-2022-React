@@ -41,7 +41,7 @@ function NavBar() {
                   About Me
                 </button>
               </Link>
-              <Link name="Projects" to={{ pathname: `/Projects` }}>
+              {/* <Link name="Projects" to={{ pathname: `/Projects` }}>
                 <button
                   className={
                     route === "/Projects"
@@ -55,7 +55,7 @@ function NavBar() {
                 >
                   Projects
                 </button>
-              </Link>
+              </Link> */}
               <Link name="Resume" to={{ pathname: `/Resume` }}>
                 <button
                   className={

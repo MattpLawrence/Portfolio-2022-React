@@ -163,21 +163,32 @@ button::after {
 }
 .svg {
   margin-bottom: -25%;
+  z-index: -1;
   width: 80%;
   filter: invert(14%) sepia(76%) saturate(6478%) hue-rotate(268deg)
     brightness(92%) contrast(111%);
 }
-.purple {
+#one .purple {
   position: relative;
-  z-index: +1;
+
   padding: 2rem;
+  padding-bottom: 8rem;
   color: white;
   background-color: var(--purple);
 }
 
+.purple p {
+  font-size: 1.2rem;
+}
+
 /* *********************Projects********************** */
+.projCardContainer .row {
+  margin-top: -6rem;
+}
+
 .cardContainer .card {
-  margin: 2rem;
+  border-radius: 1rem;
+  margin: 1rem;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   background-color: rgb(240, 240, 240);
   margin-left: auto;
@@ -191,6 +202,7 @@ button::after {
   text-decoration: none;
 }
 .card-img-top {
+  margin-top: 1rem;
   opacity: 1;
   transition: 0.5s ease;
   backface-visibility: hidden;
@@ -305,6 +317,21 @@ iframe {
 }
 
 /* *********************Contact************************ */
+
+.home {
+  position: relative;
+  padding: 2rem;
+  height: 210px;
+  color: white;
+  background-color: var(--purple);
+}
+.homeContact .row {
+  margin-top: -10rem;
+}
+.purple h2 {
+  font-weight: 700;
+}
+
 .cardContainer .row .contactCard {
   margin-top: 4rem;
 }
@@ -375,6 +402,16 @@ iframe {
   border-radius: 100%;
 }
 
+.matrix {
+  /* z-index: -1; */
+  position: absolute;
+  left: 0;
+  width: 100vw !important;
+  max-height: 1200px;
+}
+
+/* *****************Media Query********************* */
+
 /* Above Small */
 @media all and (min-width: 576px) {
 }
@@ -410,13 +447,26 @@ iframe {
     display: none;
   }
   .imgContainer:hover .techContainer {
-    top: 80%;
+    top: 75%;
   }
   .imgContainer:hover .techLabelLeft {
-    top: 60%;
+    top: 45%;
   }
   .imgContainer:hover .techLabelRight {
-    top: 60%;
+    top: 45%;
+  }
+  .cardContainer .card {
+    margin-bottom: 2rem;
+  }
+  .home {
+    position: relative;
+    padding: 2rem;
+    height: 250px;
+    color: white;
+    background-color: var(--purple);
+  }
+  .homeContact .row {
+    margin-top: -8rem;
   }
   /************ contact form **************/
   .cardContainer .row .contactCard {
@@ -430,6 +480,7 @@ iframe {
     margin-bottom: 1rem;
   }
 }
+
 /* Above X-Large */
 @media all and (min-width: 1200px) {
   .svg {

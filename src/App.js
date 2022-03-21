@@ -23,16 +23,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route
-            path="/Projects"
-            element={
-              <div className=" cardContainer container">
-                <div className="row">
-                  <Projects />
-                </div>
-              </div>
-            }
-          />
+
           <Route path="/Resume" element={<Resume />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
