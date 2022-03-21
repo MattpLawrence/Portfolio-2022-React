@@ -2,8 +2,12 @@
   --grey: #6c757d;
   --navGrey: #f8f9fa;
   --blue: #0eb7da;
+  --purple: #7510f7;
 }
 
+body {
+  font-family: "Roboto", sans-serif !important;
+}
 .App {
   text-align: center;
 }
@@ -22,6 +26,10 @@
   top: 0;
   left: 0;
   width: 100%;
+  color: var(--purple);
+}
+.titleCenter .center {
+  font-weight: 700;
 }
 
 .nav-link {
@@ -32,15 +40,18 @@
   z-index: 10;
   background-color: var(--navGrey);
   padding: 2px 20px !important;
+  color: var(--purple) !important;
 }
 .navbar-nav a {
   text-decoration: none;
-  color: var(--grey);
+  color: var(--purple);
 }
+/* .nav-link:hover {
+  color: var(--purple) !important;
+} */
 
 .nav-link a:hover {
   text-decoration: none;
-  color: var(--grey);
 }
 
 .navbar-toggler:focus {
@@ -51,7 +62,7 @@
 }
 
 .active {
-  border: 2px solid var(--grey);
+  border: 2px solid var(--purple);
 }
 /* draw button */
 button {
@@ -93,7 +104,7 @@ button::after {
   right: 0;
 }
 .draw:hover {
-  color: var(--grey);
+  color: var(--purple);
 }
 .draw:hover::before,
 .draw:hover::after {
@@ -101,13 +112,13 @@ button::after {
   height: 100%;
 }
 .draw:hover::before {
-  border-top-color: var(--blue);
-  border-right-color: var(--blue);
+  border-top-color: var(--purple);
+  border-right-color: var(--purple);
   transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
 }
 .draw:hover::after {
-  border-bottom-color: var(--blue);
-  border-left-color: var(--blue);
+  border-bottom-color: var(--purple);
+  border-left-color: var(--purple);
   transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s,
     height 0.25s ease-out 0.75s;
 }
@@ -117,12 +128,12 @@ button::after {
   left: 0;
 }
 .meet:hover::before {
-  border-top-color: var(--grey);
-  border-right-color: var(--grey);
+  border-top-color: var(--purple);
+  border-right-color: var(--purple);
 }
 .meet:hover::after {
-  border-bottom-color: var(--grey);
-  border-left-color: var(--grey);
+  border-bottom-color: var(--purple);
+  border-left-color: var(--purple);
   transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
 }
 
@@ -136,10 +147,29 @@ button::after {
 .fullPage {
   display: flex;
   justify-content: center;
+  width: 100vw;
 }
 .center {
   display: flex;
   justify-content: center;
+}
+.intro h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.svg {
+  margin-bottom: -25%;
+  width: 80%;
+  filter: invert(14%) sepia(76%) saturate(6478%) hue-rotate(268deg)
+    brightness(92%) contrast(111%);
+}
+.purple {
+  position: relative;
+  z-index: +1;
+  padding: 2rem;
+  color: white;
+  background-color: var(--purple);
 }
 
 /* *********************Projects********************** */
@@ -260,7 +290,7 @@ button::after {
   padding: 0.5rem;
   margin: 0.1rem 0.2rem;
   border-radius: 16px;
-  background-color: var(--grey);
+  background-color: var(--purple);
   z-index: +1;
   color: white;
 }
@@ -291,7 +321,7 @@ iframe {
   justify-content: center;
 }
 .contactContainer a button {
-  color: var(--grey);
+  color: var(--purple);
   margin: 0 1rem;
 }
 .faIcon {
@@ -305,7 +335,7 @@ iframe {
   padding: 0;
 }
 .spin:hover {
-  color: var(--grey);
+  color: var(--purple);
 }
 .spin::before,
 .spin::after {
@@ -316,9 +346,9 @@ iframe {
   border: 2px solid transparent;
 }
 .spin:hover::before {
-  border-top-color: #0eb7da;
-  border-right-color: #0eb7da;
-  border-bottom-color: #0eb7da;
+  border-top-color: var(--purple);
+  border-right-color: var(--purple);
+  border-bottom-color: var(--purple);
   transition: border-top-color 0.15s linear,
     border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
 }
@@ -326,7 +356,7 @@ iframe {
   border: 0 solid transparent;
 }
 .spin:hover::after {
-  border-top: 2px solid #0eb7da;
+  border-top: 2px solid var(--purple);
   border-left-width: 2px;
   border-right-width: 2px;
   transform: rotate(270deg);
@@ -347,6 +377,10 @@ iframe {
 }
 /* Above Medium */
 @media all and (min-width: 768px) {
+  .svg {
+    margin-bottom: -18%;
+    width: 60%;
+  }
   .techBadge {
     font-size: 1rem;
 
@@ -362,6 +396,10 @@ iframe {
 }
 /* Above Large */
 @media all and (min-width: 992px) {
+  .svg {
+    margin-bottom: -12%;
+    width: 40%;
+  }
   .titleCenter {
     display: none;
   }
@@ -388,4 +426,8 @@ iframe {
 }
 /* Above X-Large */
 @media all and (min-width: 1200px) {
+  .svg {
+    margin-bottom: -170px;
+    width: 600px;
+  }
 }

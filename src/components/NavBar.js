@@ -22,7 +22,7 @@ function NavBar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="titleCenter">
-            <h1 className="center">Matt Lawrence</h1>
+            {/* <h1 className="center">Matt Lawrence</h1> */}
           </div>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">

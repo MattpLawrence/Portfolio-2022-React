@@ -8,8 +8,8 @@ import {
 import "./";
 import "./App.css";
 
+import Home from "./pages/Home";
 import NavBar from "./components/NavBar";
-import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
