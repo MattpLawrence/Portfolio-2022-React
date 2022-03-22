@@ -20,7 +20,7 @@ function About() {
           />
         </div>
 
-        <img className="svg" src="images/circuit.svg"></img>
+        <img className="svg" src="images/circuit.svg" alt="circuit"></img>
         <div className=" purple">
           <header className="major">
             <h2>About Me</h2>

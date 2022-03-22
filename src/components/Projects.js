@@ -6,7 +6,7 @@ function Projects() {
   return projectList.map((proj, i) => (
     <div key={i} className="card col-11   col-lg-5">
       <div className="imgContainer">
-        <a href={proj.appHref} target="_blank">
+        <a href={proj.appHref} target="_blank" rel="noreferrer">
           <img src={proj.imgSrc} className="card-img-top" alt={proj.imgAlt} />
           <div className="viewLabel">{proj.viewType}</div>
           {/* return alternating classes */}
@@ -31,7 +31,7 @@ function Projects() {
       </div>
 
       <div className="card-body">
-        <a href={proj.gitHref} target="_blank">
+        <a href={proj.gitHref} target="_blank" rel="noreferrer">
           <button className="card-link button draw">View On GitHub</button>
         </a>
       </div>

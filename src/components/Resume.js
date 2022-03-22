@@ -7,6 +7,7 @@ function Resume() {
           <iframe
             src="https://drive.google.com/file/d/1PdYazz82D3wTXwcp7mht0dM2lsRzbkID/preview"
             allow="autoplay"
+            title="resume"
           ></iframe>
         </div>
       </div>

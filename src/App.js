@@ -1,16 +1,10 @@
-import React, { useState } from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  useLocation,
-} from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./";
 import "./App.css";
 
 import HomePage from "./pages/HomePage";
 import NavBar from "./components/NavBar";
-import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import ContactPage from "./pages/ContactPage";
 
