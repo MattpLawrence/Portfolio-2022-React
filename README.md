@@ -2,7 +2,7 @@
 
 ![MIT-Tag](https://shields.io/badge/license-MIT-green)
 
-Use Deployed version here: [React Portfolio](https://mpl-react-portfolio.herokuapp.com/)
+Use Deployed version here: [React Portfolio](https://mpl-portfolio-2022.netlify.app/)
 
 ## Description:
 
@@ -28,7 +28,7 @@ To install this repository go to [MattpLawrence/React-Portfolio](https://github.
 
 To use the application open the cloned repository in you text editor to use the integrated terminal. Or, open your terminal and navigate to the root directory of your location of the cloned repository. Type "npm i" to install all dependencies. With all dependencies installed run "npm run start" to start the application.
 
-Use Deployed version here: [React Portfolio](https://mpl-react-portfolio.herokuapp.com/)
+Use Deployed version here: [React Portfolio](https://mpl-portfolio-2022.netlify.app/)
 
 ## License: <a name="license"></a>
 
