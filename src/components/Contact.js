@@ -8,8 +8,11 @@ function Contact() {
   return (
     <div className=" cardContainer container">
       <div className="row">
-        <div className="card contactCard col-11 col-md-10 col-xl-8">
-          <img className="imgMain imgContact col-10 " src={meContact}></img>
+        <div className="card contactCard col-10 col-xl-8">
+          <img
+            className="imgMain imgContact col-10 col-lg-8 "
+            src={meContact}
+          ></img>
           <h2>Want more of me?</h2>
           <div className="contactContainer">
             <a
