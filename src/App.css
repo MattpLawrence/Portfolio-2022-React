@@ -325,7 +325,17 @@ iframe {
   color: white;
   background-color: var(--purple);
 }
+.contact {
+  position: relative;
+  padding: 2rem;
+  height: 210px;
+  color: white;
+  background-color: var(--purple);
+}
 .homeContact .row {
+  margin-top: -10rem;
+}
+.contactContact .row {
   margin-top: -10rem;
 }
 .purple h2 {
@@ -341,7 +351,8 @@ iframe {
   margin-bottom: 5rem;
 }
 .card h2 {
-  color: var(--grey);
+  color: black;
+  font-weight: 700;
 }
 
 .contactContainer {
@@ -404,10 +415,11 @@ iframe {
 
 .matrix {
   /* z-index: -1; */
+  /* margin-top: -26%; */
   position: absolute;
   left: 0;
   width: 100vw !important;
-  max-height: 1200px;
+  max-height: 800px;
 }
 
 /* *****************Media Query********************* */

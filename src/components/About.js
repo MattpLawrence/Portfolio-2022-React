@@ -7,7 +7,7 @@ function About() {
         <header className="intro">
           <h2>Developer, Problem Solver & Perpetual Learner </h2>
           <p>
-            I design solutions everyday,
+            I design solutions for everyday,
             <br />
             and I love doing so.
           </p>
@@ -40,6 +40,9 @@ function About() {
             nothing I love more than having a problem to solve, and help grow
             something from nothing.
           </p>
+          <br />
+          <br />
+          <h2>Here Are Some Of My Recent Projects:</h2>
         </div>
       </section>
     </div>

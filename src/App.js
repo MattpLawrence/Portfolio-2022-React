@@ -8,11 +8,11 @@ import {
 import "./";
 import "./App.css";
 
-import Home from "./pages/Home";
+import HomePage from "./pages/HomePage";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
-import Contact from "./components/Contact";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   // const [route, setRoute] = useState("AboutMe");
@@ -22,10 +22,10 @@ function App() {
       <div className="App">
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
 
           <Route path="/Resume" element={<Resume />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Contact" element={<ContactPage />} />
         </Routes>
       </div>
     </Router>
