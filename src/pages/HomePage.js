@@ -4,7 +4,7 @@ import About from "../components/About";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 
-function Home() {
+function HomePage() {
   return (
     <div>
       <About />
@@ -26,4 +26,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;
