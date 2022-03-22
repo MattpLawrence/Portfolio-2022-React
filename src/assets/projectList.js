@@ -1,6 +1,6 @@
 const projectList = [
   {
-    imgSrc: "./images/reactPortfolioMin.png",
+    imgSrc: "Portfolio-2022-React/images/reactPortfolioMin.png",
     imgAlt: "React Portfolio",
     appHref: "https://github.com/MattpLawrence/Portfolio-2022-React",
     gitHref: "https://github.com/MattpLawrence/Portfolio-2022-React",

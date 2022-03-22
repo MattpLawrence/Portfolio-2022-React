@@ -1,4 +1,4 @@
-# Project Title: Short URL
+# Project Title: React Portfolio
 
 ![MIT-Tag](https://shields.io/badge/license-MIT-green)
 
