@@ -370,6 +370,10 @@ iframe {
   margin-left: 0rem;
 }
 
+.icoDesktop {
+  display: none;
+}
+
 .spin {
   width: 5em;
   height: 5em;
@@ -490,6 +494,12 @@ iframe {
   .contactContainer {
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+  .icoDesktop {
+    display: inherit;
+  }
+  .icoMobile {
+    display: none;
   }
 }
 

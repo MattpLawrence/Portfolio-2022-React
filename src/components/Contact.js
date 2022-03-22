@@ -20,6 +20,17 @@ function Contact() {
               href="https://mail.google.com/mail/u/0/?fs=1&to=MattphLawrence@gmail.com&tf=cm"
               target="_blank"
               rel="noreferrer"
+              className="icoDesktop"
+            >
+              <button className="card-link button spin circle">
+                <FontAwesomeIcon icon={faEnvelope} className="faIcon" />
+              </button>
+            </a>
+            <a
+              href="mailto:mattphlawrence@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="icoMobile"
             >
               <button className="card-link button spin circle">
                 <FontAwesomeIcon icon={faEnvelope} className="faIcon" />
