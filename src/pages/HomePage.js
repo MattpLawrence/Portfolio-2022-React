@@ -18,7 +18,7 @@ function HomePage() {
         <h2> I'd Love to hear from you!</h2>
         <p>Contact me below:</p>
       </div>
-      <img className="svg matrix" src="images/matrix.svg"></img>
+      <img className="svg matrix" src="images/matrix.svg" alt="matrix"></img>
       <div className="homeContact">
         <Contact />
       </div>

@@ -10,7 +10,7 @@ function Projects() {
           <img src={proj.imgSrc} className="card-img-top" alt={proj.imgAlt} />
           <div className="viewLabel">{proj.viewType}</div>
           {/* return alternating classes */}
-          <div className={i % 2 == 0 ? "techLabelLeft" : "techLabelRight"}>
+          <div className={i % 2 === 0 ? "techLabelLeft" : "techLabelRight"}>
             Made With:
           </div>
           {/* map out all technologies */}

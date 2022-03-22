@@ -12,7 +12,7 @@ function Contact() {
           <img
             className="imgMain imgContact col-10 col-lg-8 "
             src={meContact}
-            alt="profile image"
+            alt="profile"
           ></img>
           <h2>Want more of me?</h2>
           <div className="contactContainer">
